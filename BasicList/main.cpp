@@ -80,9 +80,9 @@ public:
 };
 
 int main() {
-    std::cout << "--- Завдання 1: Список, Стек, Черга ---" << std::endl;
+    std::cout << "--- Task 1: List, Stack, Queue ---" << std::endl;
 
-    std::cout << "\nОперації зі Стеком (Stack<int>):" << std::endl;
+    std::cout << "\nStack operations (Stack<int>):" << std::endl;
     Stack<int> myStack;
     myStack.insert(10);
     myStack.insert(20);
@@ -96,7 +96,7 @@ int main() {
     myStack.display();
     myStack.remove();
 
-    std::cout << "\nОперації з Чергою (Queue<std::string>):" << std::endl;
+    std::cout << "\nQueue operations (Queue<std::string>):" << std::endl;
     Queue<std::string> myQueue;
     myQueue.insert("Apple");
     myQueue.insert("Banana");
